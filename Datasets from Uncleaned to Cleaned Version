@@ -1,0 +1,22 @@
+📋 What's Inside (7 tabs)
+TabContents📋 OverviewSummary table + scale/variable reference guide1️⃣ Stress FactorsCleaned data (104 rows × 6 cols)1️⃣ Cleaning LogEvery step documented2️⃣ Mental HealthCleaned data (100 rows × 10 cols)2️⃣ Cleaning LogEvery step documented3️⃣ Stress Level DatasetCleaned data (150 rows × 12 cols)3️⃣ Cleaning LogEvery step documented
+
+🔧 What Was Fixed Per Dataset
+Dataset 1 — Stress Factors:
+
+46 duplicate rows removed (150 → 104 rows)
+All 6 long survey question columns renamed to clean snake_case
+All scales confirmed 1–5 Likert ✅
+
+Dataset 2 — Mental Health:
+
+1 missing age filled with median (19)
+1 duplicate row removed (101 → 100 rows)
+Course names: 49 raw variants → 35 clean names ('engin'/'Engine' → 'Engineering', etc.)
+year_of_study casing fixed ('year 1' → 'Year 1')
+
+Dataset 3 — Stress Level Dataset:
+
+53 rows with stress_level=0 recoded to 1 (0 is not a valid value on this scale)
+PHQ-9 depression scores (0–27) and GAD-7 anxiety scores (0–21) preserved as clinical scales — not forced to 1–5
+All columns were already clean snake_case ✅
