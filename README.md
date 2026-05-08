@@ -94,7 +94,7 @@ The analysis aims to uncover patterns such as:
 ## 📁 Project Structure
 
 ```
-├── README.md                  ← You are here
+├── README.md                  ← Project Proposal
 ├── data/
 │   ├── raw/                   ← Original Kaggle datasets (5 files)
 │   └── processed/             ← Cleaned & merged dataset 
