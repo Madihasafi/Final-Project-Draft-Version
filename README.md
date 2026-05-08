@@ -76,7 +76,7 @@ The analysis aims to uncover patterns such as:
 | Category | Tools |
 |----------|-------|
 | Data wrangling | Python, pandas |
-| Visualization | Plotly, Matplotlib, Seaborn |
+| Visualization | Plotly |
 | Analysis | Correlation analysis, regression, descriptive statistics |
 | Presentation | Jupyter Notebook / Marimo or Streamlit |
 | Version control | Git & GitHub |
