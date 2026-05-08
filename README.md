@@ -101,7 +101,7 @@ The analysis aims to uncover patterns such as:
 ├── notebooks/
 │   └── Final Project Draft Version Code.ipynb           ← Exploratory data analysis 
 ├── src/
-│   └── data_cleaning.py       ← Data processing scripts 
+│   └── data_cleaning_script.py       ← Data processing scripts 
 └── visuals/                   ← Exported charts and figures
 ```
 
