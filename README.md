@@ -72,15 +72,23 @@ The analysis aims to uncover patterns such as:
 ---
 
 ## 🛠️ Tools & Methods
-
-| Category | Tools |
-|----------|-------|
-| Data wrangling | Python, pandas |
-| Visualization | Plotly |
-| Analysis | Correlation analysis, regression, descriptive statistics |
-| Presentation | Jupyter Notebook / Marimo or Streamlit |
-| Version control | Git & GitHub |
-
+## 🗂️ Notebook Structure
+| Step | Title | Platform / Tool |
+|------|-------|-----------------|
+| 1 | Setup & Install Libraries | Google Colab |
+| 2 | Load Datasets & First Look | pandas |
+| 3 | Column Names & Data Types | pandas |
+| 4 | Descriptive Statistics | pandas |
+| 5 | Stress Level Distributions | Plotly |
+| 6 | Sleep Quality vs Stress | Plotly |
+| 7 | Study Load vs Stress | Plotly |
+| 8 | Mental Health Breakdown (Depression/Anxiety) | Plotly |
+| 9 | Gender & Year of Study Analysis | Plotly |
+| 10 | Correlation Heatmap | Plotly |
+| 11 | Cross-Dataset Comparison | Plotly |
+| 12 | Regression Analysis | scikit-learn |
+| 13 | DuckDB — SQL Queries on DataFrames | DuckDB |
+| 14 | Key Findings & Recommendation | Markdown summary |
 ---
 
 ## 📁 Project Structure
@@ -91,7 +99,7 @@ The analysis aims to uncover patterns such as:
 │   ├── raw/                   ← Original Kaggle datasets (5 files)
 │   └── processed/             ← Cleaned & merged dataset 
 ├── notebooks/
-│   └── 01_eda.ipynb           ← Exploratory data analysis 
+│   └── Final Project Draft Version Code.ipynb           ← Exploratory data analysis 
 ├── src/
 │   └── data_cleaning.py       ← Data processing scripts 
 └── visuals/                   ← Exported charts and figures
